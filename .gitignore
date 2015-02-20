@@ -1,0 +1,113 @@
+logfile*
+tracing.log*
+python.core
+*.sqlite3
+
+# Unix
+*~
+\#*#
+*.swp
+*.pyc
+*.swo
+
+# OSX
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Third-Party
+.~lock.*
+.codeintel/*
+.sass-cache
+.vagrant
+.ipynb_checkpoints/
+
+# JetBrains
+.idea/
+*.ipr
+*.iws
+*.iml
+out/
+.idea_modules/
+atlassian-ide-plugin.xml
+com_crashlytics_export_strings.xml
+
+# SublimeText
+/*.sublime-project
+*.sublime-workspace
+
+# Ignore tags created by etags, ctags, gtags (GNU global) and cscope
+TAGS
+!TAGS/
+tags
+!tags/
+gtags.files
+GTAGS
+GRTAGS
+GPATH
+cscope.files
+cscope.out
+cscope.in.out
+cscope.po.out
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+cover
+.cache
+nosetests.xml
+coverage.xml
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log.*
+
+# Sphinx documentation
+docs/_build/
+docs/build
+
+# Virtualenv
+.Python
+[Bb]in
+[Ii]nclude
+[Ll]ib
